@@ -1,16 +1,21 @@
 import React, { Component } from 'react'
 import '../css/Styles.css'
+import photo from '../img/personal_photo.jpg'
 
 
 class Heading extends Component {
 	render() {
 		return(
-			<header className="header" id="top">
+			<div>
+				<header className="header" />
 				<div className="text-vertical-center">
 					<h1>Hey It's Ryan</h1>
 					<h3>Programmer Analyst</h3>
+					<img src={photo} className="circle-photo"/>
 				</div>
-			</header>
+				
+			</div>
+
 		) 
 	}
 }
