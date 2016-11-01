@@ -42,3 +42,55 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+
+/* Skills */
+
+.skills {
+    padding: 50px 0;
+    color: #FFF;
+    background-color: #444444;
+}
+
+.skills-item {
+    margin-bottom: 30px;
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+
+
+/* Icons */
+.icon-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.icon-4x {
+    font-size: 4em;
+}
+
+.icon-stack-2x {
+	position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.icon-link {
+	color: #FFF;
+}
+
+.svg-icon {
+	width: 112px;
+	height: 112px;
+}
