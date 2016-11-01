@@ -12,7 +12,7 @@ class About extends Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-12 text-center">
-							<h2>&lt;Me at a glance /&gt;</h2>
+							<h2>&lt;Ryan at a glance /&gt;</h2>
 							<p className="lead">
 								Highly interested in being involved in working with projects using modern open technology stack to provide users with superb experience and application functionality.
 							</p>
