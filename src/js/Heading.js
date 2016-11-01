@@ -7,12 +7,14 @@ class Heading extends Component {
 	render() {
 		return(
 			<div>
-				<header className="header" />
-				<div className="text-vertical-center">
-					<h1>Hey It's Ryan</h1>
-					<h3>Programmer Analyst</h3>
-					<img src={photo} className="circle-photo"/>
-				</div>
+				<header className="header">
+					<div className="text-vertical-center">
+						<h1>Ryan Cruz</h1>
+						<h3>Programmer Analyst</h3>
+						<img src={photo} className="circle-photo" alt="circle-personal"/>
+					</div>
+				</header>
+
 				
 			</div>
 
