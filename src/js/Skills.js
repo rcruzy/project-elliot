@@ -66,12 +66,6 @@ class Skills extends Component {
 									</h4>
 								</div>
 							</div>
-							<br />
-							<div className="row">
-								<div className="col-md-12 col-sm-12">
-									<h3>And bunch of other stuff, make sure to check his fantastic <a href="https://ph.linkedin.com/in/ryanjcruz" target="blank" className="icon-link">Linkedin profile</a></h3>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
