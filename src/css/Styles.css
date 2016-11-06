@@ -98,3 +98,20 @@ hr.small {
 .icon-div {
 	margin-top: 10px;
 }
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+}
+
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+.contact-icons {
+	margin-top: 10px;
+}
