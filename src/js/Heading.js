@@ -8,7 +8,7 @@ class Heading extends Component {
 		return(
 			<div>
 				<header className="header">
-					<div className="text-vertical-center">
+					<div className="text-vertical-center cover-photo">
 						<h1>Ryan Cruz</h1>
 						<h3>Programmer Analyst</h3>
 						<img src={photo} className="circle-photo" alt="circle-personal"/>

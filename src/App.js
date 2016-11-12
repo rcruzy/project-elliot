@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap-theme.css'
 import Heading from './js/Heading'
 import About from './js/About'
 import Skills from './js/Skills'
+import Recommendations from './js/Recommendations'
 import Footer from './js/Footer'
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <Heading />
         <About />
         <Skills />
+        <Recommendations />
         <Footer />
       </div>
     )
