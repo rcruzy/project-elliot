@@ -3,6 +3,10 @@
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+    color: #FFF;
+}
+
+.cover-photo {
     height: 100vh;
     color: #444444;
 }
@@ -114,4 +118,17 @@ hr.small {
 
 .contact-icons {
 	margin-top: 10px;
+}
+
+/* Recommendations */
+.recommendations {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/sticky_notes.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
