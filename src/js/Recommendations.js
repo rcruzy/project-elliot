@@ -9,7 +9,7 @@ class Recommendations extends Component {
 	render() {
 		return(
 			<aside id="recommendations" className="recommendations">
-				<div className="text-vertical-center">
+				<div className="text-vertical-center mid-height">
 					<h1 className="text-center">What colleagues are saying about Ryan</h1>
 				</div>
 			</aside>
