@@ -8,6 +8,8 @@ import Skills from './js/Skills'
 import Recommendations from './js/Recommendations'
 import Footer from './js/Footer'
 
+import ReceivedRecommendations from './js/ReceivedRecommendations'
+
 class App extends Component {
   render() {
     return (
@@ -15,7 +17,7 @@ class App extends Component {
         <Heading />
         <About />
         <Skills />
-        <Recommendations />
+        <Recommendations recommendations={ReceivedRecommendations}/>
         <Footer />
       </div>
     )
