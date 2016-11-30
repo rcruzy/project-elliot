@@ -14,10 +14,7 @@ class Heading extends Component {
 						<img src={photo} className="circle-photo" alt="circle-personal"/>
 					</div>
 				</header>
-
-				
 			</div>
-
 		) 
 	}
 }

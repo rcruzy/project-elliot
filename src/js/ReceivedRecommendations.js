@@ -1,5 +1,6 @@
 const ReceivedRecommendations = [
 	{
+		recommendationKey: 11,
 		colleagueName: 'Benj Samson',
 		position: 'Analyst Programmer',
 		dateGiven: 'October 26, 2016',
@@ -8,6 +9,7 @@ const ReceivedRecommendations = [
 
 	},
 	{
+		recommendationKey: 10,
 		colleagueName: 'Ken Mediavillo',
 		position: 'Executive - Web Developer, Digital at Macquarie Group',
 		dateGiven: 'September 8, 2016',
@@ -16,6 +18,7 @@ const ReceivedRecommendations = [
 
 	},
 	{
+		recommendationKey: 9,
 		colleagueName: 'Carlo Cayos',
 		position: 'Full Stack Java Developer',
 		dateGiven: 'September 8, 2016',
@@ -24,6 +27,7 @@ const ReceivedRecommendations = [
 
 	},
 	{
+		recommendationKey: 8,
 		colleagueName: 'Richard Almazan',
 		position: 'Manager - Desktop Developer Lead',
 		dateGiven: 'August 27, 2016',
@@ -32,6 +36,7 @@ const ReceivedRecommendations = [
 
 	},
 	{
+		recommendationKey: 7,
 		colleagueName: 'Amit Savara',
 		position: 'Senior J2EE Developer at Macquarie Group',
 		dateGiven: 'May 19, 2016',
@@ -40,6 +45,7 @@ const ReceivedRecommendations = [
 
 	},
 	{
+		recommendationKey: 6,
 		colleagueName: 'Ryan Capulong',
 		position: 'Lead Consultant at Headstrong',
 		dateGiven: 'April 26, 2016',
@@ -48,6 +54,7 @@ const ReceivedRecommendations = [
 
 	},
 	{
+		recommendationKey: 5,
 		colleagueName: 'Maria Fatima Luna',
 		position: 'Senior Java Developer, OCPJP',
 		dateGiven: 'April 20, 2016',
@@ -56,6 +63,7 @@ const ReceivedRecommendations = [
 
 	},
 	{
+		recommendationKey: 4,
 		colleagueName: 'Teodoro Hernan Sison',
 		position: 'Senior Software Developer at NNIT',
 		dateGiven: 'November 3, 2015',
@@ -63,7 +71,8 @@ const ReceivedRecommendations = [
 		recommendation: 'Awesome! that\'s the first word to describe Ryan. \nRyan is a very young and talented Web developer. He always finish his task earlier than the target date. He also shows willingness to learn new things. He is not hesitant to ask question and clarifications if there are things that are not clear to him. He has a strong communication skills that build a good relationships with the clients. \nThese sets of attribute makes him an awesome developer!'
 
 	},
-	{
+	{	
+		recommendationKey: 3,
 		colleagueName: 'Rick Dowling',
 		position: 'QA Lead at FIS',
 		dateGiven: 'August 5, 2015',
@@ -72,6 +81,7 @@ const ReceivedRecommendations = [
 
 	},
 	{
+		recommendationKey: 2,
 		colleagueName: 'Sid Jagannathan',
 		position: 'Experienced DevOps technologist',
 		dateGiven: 'June 16, 2015',
@@ -80,6 +90,7 @@ const ReceivedRecommendations = [
 
 	},
 	{
+		recommendationKey: 1,
 		colleagueName: 'Alvin Reyes',
 		position: 'Principal Applications Developer at Oracle',
 		dateGiven: 'April 25, 2015',
