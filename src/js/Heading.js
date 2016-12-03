@@ -13,8 +13,7 @@ class Heading extends Component {
 						<Panel className="panel-header">
 							<h1>Ryan Cruz</h1>
 							<h3>Programmer Analyst</h3>
-							
-							<Image src={photo} className="cover-photo" circle responsive/>
+							<Image src={photo} className="cover-photo" circle responsive role="presentation"/>
 						</Panel>
 					</div>
 				</header>
