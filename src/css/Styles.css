@@ -148,3 +148,9 @@ hr.small {
             width: 25%;
         }
 }
+
+@media screen and (max-width: 640px) {
+    .panel-header {
+        width: 80%;
+    }
+}
