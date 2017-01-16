@@ -1,6 +1,6 @@
 {
   "name": "project-elliot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "devDependencies": {
     "gh-pages": "^0.12.0",
