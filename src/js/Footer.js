@@ -33,7 +33,7 @@ class Footer extends Component {
 									</li>
 								</ul>
 								<hr className="small"/>
-								<p className="text-muted">Copyright &copy; Ryan Cruz 2016</p>
+								<p className="text-muted">Copyright &copy; Ryan Cruz {this.props.currentYear}</p>
 								<br/>
 								<p className="text-muted">Made with lots of <i className="fa fa-heart" aria-hidden="true"></i> and learning using <a href="https://facebook.github.io/react/" target="_blank">React <i className="devicon-react-original"></i></a> and <a href="https://react-bootstrap.github.io">React Bootstrap</a>. Hosted using <a href="https://pages.github.com/" target="_blank">Github Pages <i className="fa fa-github fa-fw" aria-hidden="true"></i></a>
 							 	</p>
