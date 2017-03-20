@@ -10,7 +10,7 @@ import './index.css'
 	* might need to set debug property to false in the future.
 **/
 ReactGA.initialize('UA-91402482-1', {
-  debug: true,
+  debug: false,
   titleCase: false}
   )
 
