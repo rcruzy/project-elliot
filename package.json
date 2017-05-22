@@ -3,7 +3,6 @@
   "version": "1.1.7",
   "private": true,
   "devDependencies": {
-    "gh-pages": "^0.12.0",
     "react-scripts": "0.6.1"
   },
   "dependencies": {
@@ -21,7 +20,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&gh-pages -d build"
-  },
-  "homepage": "https://ryanjcruz.github.io"
+    "deploy": "npm run build"
+  }
 }
