@@ -20,6 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "aws s3 rm s3://ryanjcruz-personal-website --recursive && aws s3 sync build/ s3://ryanjcruz-personal-website",
+    "postdeploy": "aws cloudfront create-invalidation --distribution-id EV1QWQISMP3V7 --paths /* && aws cloudfront create-invalidation --distribution-id E3MI95NZCY2T2A --paths /*"
   }
 }

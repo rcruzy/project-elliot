@@ -8,9 +8,7 @@ Design was inspired by this [Awesome Template from startbootstrap.com](https://s
 
 * Create PR to `aws-integration` branch.
 * Once PR is approved and merged, checkout `aws-integration` branch in your local.
-* Run `npm run deploy`
-* Empty bucket first before deploying `aws s3 rm s3://ryanjcruz-personal-website --recursive`
-* Execute in commandline `aws s3 sync build/ s3://ryanjcruz-personal-website`. See [this](http://serverless-stack.com/chapters/configure-the-aws-cli.html) for setting up AWS CLI locally.
+* Run `npm run deploy`. See [this](http://serverless-stack.com/chapters/configure-the-aws-cli.html) for setting up AWS CLI locally.
 * Run `git tag vN.N.N` then bump `package.json` to next deployment version.
 * Run `git push --tags` to commit tag.
 * Commit version bump.
