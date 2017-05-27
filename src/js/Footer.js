@@ -26,16 +26,16 @@ class Footer extends Component {
 								<br/>
 								<ul className="list-inline contact-icons">
 									<li>
-										<a href="https://ph.linkedin.com/in/ryanjcruz" target="_blank"><i className="fa fa-linkedin fa-fw fa-3x" aria-hidden="true"></i></a>
+										<a href="https://ph.linkedin.com/in/ryanjcruz" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin fa-fw fa-3x" aria-hidden="true"></i> </a>
 									</li>
 										<li>
-										<a href="https://github.com/ryanjcruz" target="_blank"><i className="fa fa-github fa-fw fa-3x" aria-hidden="true"></i></a>
+										<a href="https://github.com/ryanjcruz" target="_blank" rel="noopener noreferrer"><i className="fa fa-github fa-fw fa-3x" aria-hidden="true"></i> </a>
 									</li>
 								</ul>
 								<hr className="small"/>
 								<p className="text-muted">Copyright &copy; Ryan Cruz {this.props.currentYear}</p>
 								<br/>
-								<p className="text-muted">Made with lots of <i className="fa fa-heart" aria-hidden="true"></i> and learning using <a href="https://facebook.github.io/react/" target="_blank">React <i className="devicon-react-original"></i></a> and <a href="https://react-bootstrap.github.io">React Bootstrap</a>. Hosted using <a href="https://pages.github.com/" target="_blank">Github Pages <i className="fa fa-github fa-fw" aria-hidden="true"></i></a>
+								<p className="text-muted">Made with lots of <i className="fa fa-heart" aria-hidden="true"></i> and learning using <a href="https://facebook.github.io/react/" target="_blank" rel="noopener noreferrer">React <i className="devicon-react-original"></i></a> and <a href="https://react-bootstrap.github.io">React Bootstrap</a>. Hosted using <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">Github Pages <i className="fa fa-github fa-fw" aria-hidden="true"></i></a>
 							 	</p>
 							</div>
 						</div>
