@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+- node
+script:
+- npm test
+deploy:
+- provider: s3
+  access_key_id: AKIAIVFWZPAIMF3XNCUA
+  secret_access_key: &1
+    secure: Vwgt7KZzZ6uCR7+Hx8UoucfjriPC906agQCAQAcu/oVCwOKoh//M7ny3n6wBA42TVNCiCPs1eS5wxMtiq8gyo+om9yjQBgxgw65OiIQ9Id+qqfzp47tVLLasxjNMC6GocSvxZmdsg+DLZWa9sb/P7oOHS4bg77DliDOT3xyUv8CQJCd5TrZUXtK5qF9dpQ7szDu+dnasCVh82N6yrVutOl4bjHcN6oo/rDQECV2O+Ba7giZV0HY9GDfci2rt7EwIZ/M+j97Q0oVMjHccNmkhLLNpXdKoypcp+0wYCSBO2xy6L/7Pk4cI39QnTQhx3Xpae6LpfOCKxYBgWz4av/sTUB7n7yO4a8BleYjhrSIWnMlkbAQM270jvFVSnX+OOoDDp71A0l5MgXpSe0eq0kH3yTPrvFsX6QVvW0ZYOjMl4FHaazkDoqBNTQO/QGMcRIgsRaaBbtDtFg/8s+mR48WmDT60UKe8zNjMhEn0kZQUWJKItJUMD4130IsWjj17wMr36Hms2ZyRHTKRuNMEZCTHQ2YPpPAu6+IdkpUZQ4ARQfDnnjrSDgyJGoRYxFvLnf3W4wcDW8VU+TXdvy2FFqhfYc9bh0QRlXf9dnxHEPw7h6VRqd/+oBy7KCdeXxme7t6AmzFGIRv02zCv1FOVmdkrHMlsxHmRJLIjRTMOwL5iHHU=
+  local_dir: dpl_cd_upload
+  skip_cleanup: true
+  on: &2
+    repo: ryanjcruz/project-elliot
+  bucket: ryanjcruz-personal-website
+- provider: codedeploy
+  access_key_id: AKIAIVFWZPAIMF3XNCUA
+  secret_access_key: *1
+  bucket: ryanjcruz-personal-website
+  key: index.html
+  bundle_type: ''
+  application: project-elliot
+  deployment_group: personal-website
+  on: *2
+before_deploy:
+- mkdir -p dpl_cd_upload
+- mv index.html dpl_cd_upload/index.html
