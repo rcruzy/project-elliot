@@ -22,7 +22,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "aws s3 rm s3://ryanjcruz-personal-website --recursive && aws s3 sync build/ s3://ryanjcruz-personal-website",
-    "postdeploy": "aws cloudfront create-invalidation --distribution-id EV1QWQISMP3V7 --paths /* && aws cloudfront create-invalidation --distribution-id E3MI95NZCY2T2A --paths /*",
-    "cfInvalidate": "aws cloudfront create-invalidation --distribution-id EV1QWQISMP3V7 --paths '/*' && aws cloudfront create-invalidation --distribution-id E3MI95NZCY2T2A --paths '/*'"
+    "postdeploy": "aws cloudfront create-invalidation --distribution-id EV1QWQISMP3V7 --paths /* && aws cloudfront create-invalidation --distribution-id E3MI95NZCY2T2A --paths /*"
   }
 }
