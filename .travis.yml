@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - node
 install:
-- npm install -g travis-ci-cloudfront-invalidation ...
+- npm install -g travis-ci-cloudfront-invalidation
 - npm install
 script:
 - npm test
