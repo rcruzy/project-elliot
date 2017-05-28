@@ -23,8 +23,6 @@
     "predeploy": "npm run build",
     "deploy": "aws s3 rm s3://ryanjcruz-personal-website --recursive && aws s3 sync build/ s3://ryanjcruz-personal-website",
     "postdeploy": "aws cloudfront create-invalidation --distribution-id EV1QWQISMP3V7 --paths /* && aws cloudfront create-invalidation --distribution-id E3MI95NZCY2T2A --paths /*",
-    // this is for travis, since it's running in a 
-    // unix box - quotes are neccessary with multiple command. 
     "cfInvalidate": "aws cloudfront create-invalidation --distribution-id EV1QWQISMP3V7 --paths '/*' && aws cloudfront create-invalidation --distribution-id E3MI95NZCY2T2A --paths '/*'"
   }
 }
