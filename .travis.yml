@@ -22,16 +22,16 @@ deploy:
   on: &2
     repo: ryanjcruz/project-elliot
   bucket: ryanjcruz-personal-website
-- provider: codedeploy
-  access_key_id: AKIAIVFWZPAIMF3XNCUA
-  secret_access_key: *1
-  bucket: ryanjcruz-personal-website
-  key: build/
-  bundle_type: folder
-  application: project-elliot
-  deployment_group: personal-website
-  on: *2
-  
+# - provider: codedeploy
+#   access_key_id: AKIAIVFWZPAIMF3XNCUA
+#   secret_access_key: *1
+#   bucket: ryanjcruz-personal-website
+#   key: build/
+#   bundle_type: folder
+#   application: project-elliot
+#   deployment_group: personal-website
+#   on: *2
+
 # after_deploy:
 # - travis-ci-cloudfront-invalidation -a AKIAIVFWZPAIMF3XNCUA -s &1 -c EV1QWQISMP3V7 -i '/*'
 
