@@ -1,9 +1,9 @@
 language: node_js
 node_js:
 - node
-install:
-- npm install -g travis-ci-cloudfront-invalidation
-- npm install
+# install:
+# - npm install -g travis-ci-cloudfront-invalidation
+# - npm install
 script:
 - npm test
 deploy:
@@ -27,6 +27,6 @@ deploy:
   on: *2
 before_deploy:
 - npm run build
-after_deploy:
-- travis-ci-cloudfront-invalidation -a AKIAIVFWZPAIMF3XNCUA -s &1 -c EV1QWQISMP3V7 -i '/*'
+# after_deploy:
+# - travis-ci-cloudfront-invalidation -a AKIAIVFWZPAIMF3XNCUA -s &1 -c EV1QWQISMP3V7 -i '/*'
 
