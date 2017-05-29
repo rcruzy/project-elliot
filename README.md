@@ -1,5 +1,7 @@
 # Project description
 
+[![Build Status](https://travis-ci.org/ryanjcruz/project-elliot.svg?branch=master)](https://travis-ci.org/ryanjcruz/project-elliot)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Design was inspired by this [Awesome Template from startbootstrap.com](https://startbootstrap.com/template-overviews/stylish-portfolio/)
